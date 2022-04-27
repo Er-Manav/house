@@ -1,0 +1,49 @@
+.layout{
+    height: 90vh;
+    width: 95vw;
+    margin:auto;
+}
+
+.layout .row{
+    display: flex;
+    flex-direction:row;
+    padding:10px;
+}
+.cell{
+    height: 5rem;
+    width:10rem;
+    text-align: center;
+    justify-content:   center;
+   margin:auto;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.result{
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1rem;
+    border: 1px solid grey;
+    background-color:grey transparent;
+    color: black;
+    border-radius:0.9rem;
+    position: relative;
+    right: -92%;
+
+    
+    
+}
+.result:hover{
+    transition: all 0.6s ease;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+.resultCell{
+    background-color:lightgreen;
+}
